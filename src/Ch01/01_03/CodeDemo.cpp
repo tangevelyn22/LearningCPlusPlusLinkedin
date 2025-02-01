@@ -4,12 +4,18 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main(){
-    std::string str;
+    string str;
+    
+    /* Note: 
+        * use << std::flush << 
+        * to make sure output of "Please enter" is completely sent
+        * before waiting for user input (single words no space)
+    */
+    std::cout << "Please enter your username" <<std::endl << std::endl;
     std::cin >> str;
-    std::cout << str;
-
-    std::cout << std::endl << std::endl;
+    std::cout << "You entered username : " << str << std::endl;
     return (0);
 }
