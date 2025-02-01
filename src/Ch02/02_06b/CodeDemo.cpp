@@ -3,9 +3,11 @@
 // Preprocessor directives, by Eduardo Corpeño 
 
 #include <iostream>
+#include <cstdint>
+#define CAPACITY 5000
 
 int main(){
-    
-    std::cout << std::endl << std::endl;
+    int32_t large = CAPACITY;
+    std::cout << large << std::endl << std::endl;
     return (0);
 }
