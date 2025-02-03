@@ -6,7 +6,10 @@
 #include <cstdint>
 
 int main(){
-    
-    std::cout << std::endl << std::endl;
+    float floatingNum;
+    int32_t thirtyTwoBitInteger;
+    floatingNum = -7.345345345345345345345;
+    thirtyTwoBitInteger = floatingNum;
+    std::cout << "floatingNum = " << floatingNum << " thirtytwobitInt = " << thirtyTwoBitInteger << std::endl << std::endl;
     return (0);
 }
